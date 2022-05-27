@@ -29,7 +29,7 @@ I am a journalist by profession. Worked for a newspaper for 3 years. I am sociab
 
 ---
 
-##Code example:
+## Code example:
 
 ```
 function arrayDiff(a, b) {
@@ -37,7 +37,7 @@ function arrayDiff(a, b) {
 }
 ```
 
-##Languages:
+## Languages:
 
 + English - Intermediate
 + Russian - Intermediate
