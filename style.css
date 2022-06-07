@@ -1,1 +1,93 @@
-Hello!
+@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+a{
+   color:#fff;
+   text-decoration: none;
+   
+}
+.header{
+   display:flex;
+   justify-content: center;
+   padding: 10px;
+   background: #689cd2;
+   color: #fff;
+   font-family: 'Heebo';
+
+}
+.header_section{
+   display: flex;
+   align-items: stretch;
+
+}
+.header_item{
+   display: inline-block;
+   padding: 10px 10px;
+   font-size: 18px;
+   justify-content: center;
+
+   
+}
+.header_item:hover {
+background-color:#FF9900;
+border-radius: 4px;
+
+}
+.header_right{
+      color: #fff;
+      background: #689cd2;
+   text-align: center;
+      padding: 5px;
+     
+
+}
+   .header_name{
+      font-size: 50px;
+      text-align: center;
+      font-family: "Satisfy";
+   }
+
+   .header_title{
+      font-size: 20px;
+      text-align: center;
+      font-family: "Heebo";
+   }
+
+.avatar {
+   
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   display:flex;
+      margin: auto;
+}
+.wrapper {
+   display: flex;
+      justify-content: left;
+      padding: 40px;
+      background: #689cd2;
+      color: rgb(29, 27, 27);
+      font-family: 'Satisfy';
+      font-size: 30px;
+}
+
+.github {
+
+   display: flex;
+   margin: auto;
+
+
+}
+.github_logo{
+width: 50px;
+   height: 50px;
+   display: flex;
+   margin: auto;
+
+}
+
+.rsschool {
+   width: 100px;
+      height: 50px;
+      display: flex;
+      margin: auto;
+}
