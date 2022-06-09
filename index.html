@@ -18,13 +18,20 @@
   <div class="header">
    <div class="header_section">
    <div class="header_avatar">
-   <div class="header_item headerButton"><a href="#">About me</a></div>
-   <div class="header_item headerButton"><a href="#">Code example</a></div>
-          <div class="header_item headerButton"><a href="#">Contacts</a></div>
-              <div class="header_item headerButton"><a href="#">Skills</a></div>
-                  <div class="header_item headerButton"><a href="#">Projects</a></div>
-                      <div class="header_item headerButton"><a href="#">Education</a></div>
-                          <div class="header_item headerButton"><a href="#">Languages</a></div>
+
+
+    <nav class="header_item headerButton">
+      <ul class="menu">
+        <li><a href="#about_me">About me</a></li>
+        <li><a href="#code_example">Code example</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      
+    </nav>
+
+
    </div>
   </div>
 
@@ -33,6 +40,61 @@
    
    
   <main>
+    <div class="main_section">
+      <h2 id="about_me">About me</h2>
+      <p>I am a journalist by profession. Worked for a newspaper for 3 years. I am sociable, I love people, I can search, process
+      and double-check information. Responsible, I really want to learn and develop new skills.</p>
+
+      <hr />
+      <h2 id="code_example">Code example</h2>
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>function arrayDiff(a, b) {
+       return a.filter(e =&gt; !b.includes(e)); 
+      }
+      </code></pre>
+        </div>
+      </div>
+<hr />
+<h2 id="contacts">Contacts</h2>
+      <ul>
+        <li><strong>Location:</strong> Brest, Belarus</li>
+        <li><strong>Phone:</strong> +375298249403</li>
+        <li><strong>Email:</strong> aldzebish@gmail.com</li>
+
+        </ul>
+<hr />
+<h2 id="skills">Skills:</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>VScode</li>
+          <li>CSS</li>
+          <li>JavaScript (Basic)</li>
+          <li>Git,GitHub</li>
+        </ul>
+
+<hr />
+
+<h2 id="education">Education</h2>
+
+<ul>
+  <li><strong>University:</strong> Brest State University named after A.S. Pushkin</li>
+  <li><strong>Courses:</strong> JS / FRONT-END. STAGE 0 (RU) (current)</li>
+  <li><strong>Other:</strong> Brest State Art School</li>
+</ul>
+
+<hr />
+<h2 id="languages">Languages:</h2>
+<ul>
+  <li>English - Intermediate</li>
+  <li>Russian - Intermediate</li>
+  <li>Belorussian - Native</li>
+  <li>Polish - Basic</li>
+</ul>
+
+
+
+    </div>
   
   </main>
 
