@@ -56,14 +56,15 @@ html{
 
 body{
    font-family: 'Aleo';
-      font-size: 16;
+      font-size: 20;
       font-style: normal;
-      line-height: 1.2;
+      line-height: 24px;
       font-weight: normal;
-      color:#FFFFFF; 
+      background-color:#FFFFFF; 
       width: 1440px;
       margin-left: auto;
          margin-right: auto;
+         color:#0D606F;
       
      
 
@@ -122,10 +123,9 @@ body{
 .header__wrapper{
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
    justify-content: space-between;
-   padding-top: 35px;
-   margin-bottom: 34px;
+  padding-top: 25px;
+  padding-bottom: 34px;
   
 }
 
@@ -166,7 +166,7 @@ width: 103px;
 }
 
 .login:hover{
-   background-color: 
+   color: aquamarine;
 }
 
 
@@ -193,11 +193,10 @@ margin-bottom: 56px;;
 
 .promo__subtitle{
    max-width: 723px;
-   font-family: 'Aleo';
-      font-style: italic;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 24px;
+width: 723px;
+   height: 24px;
+   left: 120px;
+   top: 346px;
       color: white;
       margin-bottom: 46px;
       
@@ -263,7 +262,7 @@ input {
 }
 
 .start__planning:hover .start__planning:focus .start__planning:active{
-background-color: #0d4149;
+fill: #F2785C;
 cursor: pointer;
 }
 
@@ -309,11 +308,14 @@ cursor: pointer;
 }
 
 /*SECTION DESTINATIONS START*/
+.destination{
+   display: flex;
+   max-width: 1440x;
+    
+}
 
 .destinations__wrapper{
-   display: block;
    
-      max-width: 1170px;
       margin: 0 auto;
 }
 
@@ -323,7 +325,7 @@ cursor: pointer;
       font-weight: 500;
       font-size: 40px;
       color: #F2785C;
-      margin-left: 339px;
+      margin-left: 470px;
       margin-top: 95px;
       margin-bottom: 46px;
 }
@@ -332,7 +334,7 @@ cursor: pointer;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    margin-top: 46px;
-   margin-left: -119px;
+   margin-left: 
 
 }
 
@@ -357,6 +359,174 @@ cursor: pointer;
 }
 
 .hug{
-   margin-left: 562px;
+   margin-left: 681px;
       margin-top: 24px;
+      margin-bottom: 40px;
+}
+.destination__button{
+   background: #0D606F;
+   width: 228px;
+   height: 59px;
+      box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+      border-radius: 10px;
+      font-family: "Red Hat Text";
+      font-weight: 500;
+       font-size:24px;
+        color:#FFFFFF;
+        margin-left: 607px;
+        border: 0;
+}
+
+/*TRAVEL STORIES SECTION START*/
+
+.stories__title{
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size:40px;
+color:#f2785c;
+margin-left:552px;
+margin-top: 79px;
+
+}
+
+.travel__stories{
+ 
+   max-width: 1170px;
+
+}
+.fon_2{
+background:url(/img/fon2.jpg) no-repeat center;
+background-size: cover;
+
+   height: 1331px;
+   width: 1442px;
+
+}
+
+.image_1{
+width: 400px;
+   height: 250px;
+  
+   filter: drop-shadow(0px 4px 4px #0D606F);
+   border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+}
+
+   .img_1 {
+        float: right;
+   display: block;
+   margin-bottom: 30px;
+ 
+   }
+ 
+   .image_2{
+   width: 400px;
+      height: 250px;
+     
+         filter: drop-shadow(0px 4px 4px #0D606F);
+         border-radius: 16px;
+         float: left;
+         margin-right: 40px;
+      
+}
+.img_2{
+display: block;
+float: right;
+margin-bottom: 30px;
+}
+
+
+ .image_3 {
+    width: 400px;
+    height: 250px;
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+
+ }
+
+ .img_3 {
+    display: inline;
+    float:right;
+   margin-bottom: 30px;
+    
+ }
+.image_4 {
+   width: 400px;
+   height: 250px;
+
+   filter: drop-shadow(0px 4px 4px #0D606F);
+   border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+}
+
+.img_4{
+display: inline;
+
+}
+.wrapper_3{
+   background: rgba(255, 255, 255, 0.7);
+   width: 1445px;
+      height: 1270px;
+      left: 0px;
+      top: 2404px;
+     
+      
+        
+}
+
+.columns{
+   width: 1170px;
+   margin-left: 120px;
+   margin-right: 125px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+h3{
+   font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: 0;
+}
+/*SECTION FOOTER START*/
+.footer__start{
+   font-family: "Red Hat Text";
+   color:#FFFFFF;
+
+   max-width: 1170px;
+      margin: 0 auto;
+  
+      display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+      
+      
+}
+.footer__item{
+   margin-right: 42px;
+      list-style-type: none;
+}
+.footer__navigation{
+
+         display: flex;
+         flex-wrap: wrap;
+       
+}
+.github{
+   width: 30px;
+      height: 30px;
+}
+.rsschool {
+   width: 50px;
+   height: 30px;
+  
+}
+.copyright{
+   margin-left: 470px;
+   
 }
