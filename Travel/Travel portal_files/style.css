@@ -1,0 +1,497 @@
+/* aleo-regular - latin */
+@font-face {
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+      url('../fonts/aleo-v11-latin-regular.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/aleo-v11-latin-regular.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aleo-italic - latin */
+@font-face {
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   src: local(''),
+      url('../fonts/aleo-v11-latin-italic.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/aleo-v11-latin-italic.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* red-hat-text-500 - latin */
+@font-face {
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   src: local(''),
+      url('../fonts/red-hat-text-v11-latin-500.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/red-hat-text-v11-latin-500.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aleo-700 - latin */
+@font-face {
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+      url('../fonts/aleo-v11-latin-700.woff2') format('woff2'),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/aleo-v11-latin-700.woff') format('woff');
+   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html{
+   box-sizing: border-box;
+
+}
+*::before, *::after{
+   box-sizing: inherit;
+  
+}
+
+body{
+   font-family: 'Aleo';
+      font-size: 20;
+      font-style: normal;
+      line-height: 24px;
+      font-weight: normal;
+      background-color:#FFFFFF; 
+      width: 1440px;
+      margin-left: auto;
+         margin-right: auto;
+         color:#0D606F;
+      
+     
+
+}
+.fon_1 {
+   background: url(/img/promo_bg.jpg) no-repeat center;
+   background-size: cover;
+   height: 765px;
+   width: 0 auto;
+  
+
+}
+
+
+.header {
+
+  
+   background: rgba(242, 120, 92, 0.7);
+      box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+   top:0;
+   left:0;
+   width: 100%;
+
+   
+
+  
+
+}
+
+.header__top__block {
+
+   width: 1400; 
+      height: 90px;
+
+  
+ 
+}
+
+.wrapper{
+   max-width: 1170px;
+   margin: 0 auto;
+   
+ 
+}
+
+.login {
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: white;
+   text-decoration: none;
+}
+
+.header__wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 34px;
+  
+}
+
+
+.navigation{
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.header__item{
+   margin-right: 42px;
+   list-style-type: none;
+}
+
+.header__link{
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color:white;
+   text-decoration: none;
+}
+.header__link:hover{
+   color:aquamarine;
+}
+
+.header__login{
+width: 103px;
+   height: 41px;
+   left: 1217px;
+   top: 25px;
+   background-color: #0D606F;
+   border: 0;
+   border-radius: 10px;
+   margin-bottom: 24px;
+}
+
+.login:hover{
+   color: aquamarine;
+}
+
+
+/*Header style end*/
+
+
+/*Promo style start*/
+.promo{
+
+   
+   padding-top:122px;
+  
+}
+
+.promo__title{
+   max-width: 892px;
+font-family: "Aleo";
+font-weight:700;
+font-size:80px;
+line-height:96px;
+color:#FFFFFF;
+margin-bottom: 56px;;
+}
+
+.promo__subtitle{
+   max-width: 723px;
+width: 723px;
+   height: 24px;
+   left: 120px;
+   top: 346px;
+      color: white;
+      margin-bottom: 46px;
+      
+}
+.search__form__info{
+   display: flex;
+   
+}
+.search__form{
+   width: 892px;
+      height: 95px;
+      left: 120px;
+      top: 416px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 16px; 
+   
+
+     
+}
+
+.search__form__info ::placeholder{
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   color: #F2785C;
+   
+}
+
+
+.search__form__field{
+   font-family: 'Aleo';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 24px;
+      color: #F2785C;
+      background: transparent;
+      border:0px; 
+      margin-right: 45px;
+      width: 560px;
+         height: 22px;
+        
+         padding: 32px;
+      
+}
+
+input {
+   outline: none;
+}
+
+.start__planning{
+   border: 0px;
+   background: #0D606F;
+   border-radius: 10px;
+   width: 228px;
+   height: 59px;
+   margin: 18px;
+   font-family: "Red hat text";
+   font-size: 16px;
+   color: white;
+   text-transform: none;
+
+}
+
+.start__planning:hover .start__planning:focus .start__planning:active{
+fill: #F2785C;
+cursor: pointer;
+}
+
+/*Promo style end*/
+
+
+   
+
+/*Section 1 start*/
+.steps{
+   display: block;
+  
+   max-width: 1170px;
+      margin: 0 auto;
+    
+}
+.steps__title{
+   margin-top: 80px;
+   width: 611px;
+   height: 53px;
+   font-family: 'Red Hat Text';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 53px;
+   color: #F2785C;
+   margin-left: 295px;
+ 
+}
+.frame_card{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 40px;
+  
+}
+
+.frame_1{
+   margin-right: 231px;
+}
+
+.frame_2 {
+   margin-right: 160px;
+}
+
+/*SECTION DESTINATIONS START*/
+.destination{
+   display: flex;
+   max-width: 1440x;
+    
+}
+
+.destinations__wrapper{
+   
+      margin: 0 auto;
+}
+
+.destinations__title{
+   font-family: 'Red Hat Text';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      color: #F2785C;
+      margin-left: 470px;
+      margin-top: 95px;
+      margin-bottom: 46px;
+}
+
+.travel_card{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 46px;
+   margin-left: 
+
+}
+
+.spain{
+   width: 260px;
+   height: 800px;
+   margin-right: 60px;
+   border-radius: 10;
+   
+}
+
+.japan{
+   width: 800px;
+   height: 800px;
+   margin-right: 60px;
+   border-radius: 10;
+}
+.usa{
+   width: 260px;
+      height: 800px;
+      border-radius: 10;
+}
+
+.hug{
+   margin-left: 681px;
+      margin-top: 24px;
+      margin-bottom: 40px;
+}
+.destination__button{
+   background: #0D606F;
+   width: 228px;
+   height: 59px;
+      box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+      border-radius: 10px;
+      font-family: "Red Hat Text";
+      font-weight: 500;
+       font-size:24px;
+        color:#FFFFFF;
+        margin-left: 607px;
+        border: 0;
+}
+
+/*TRAVEL STORIES SECTION START*/
+
+.stories__title{
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size:40px;
+color:#f2785c;
+margin-left:552px;
+margin-top: 79px;
+
+}
+
+.travel__stories{
+ 
+   max-width: 1170px;
+
+}
+.fon_2{
+background:url(/img/fon2.jpg) no-repeat center;
+background-size: cover;
+
+   height: 1331px;
+   width: 1442px;
+
+}
+
+.image_1{
+width: 400px;
+   height: 250px;
+  
+   filter: drop-shadow(0px 4px 4px #0D606F);
+   border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+}
+
+   .img_1 {
+        float: right;
+   display: block;
+   margin-bottom: 30px;
+ 
+   }
+ 
+   .image_2{
+   width: 400px;
+      height: 250px;
+     
+         filter: drop-shadow(0px 4px 4px #0D606F);
+         border-radius: 16px;
+         float: left;
+         margin-right: 40px;
+      
+}
+.img_2{
+display: block;
+float: right;
+margin-bottom: 30px;
+}
+
+
+ .image_3 {
+    width: 400px;
+    height: 250px;
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+
+ }
+
+ .img_3 {
+    display: inline;
+    float:right;
+   margin-bottom: 30px;
+    
+ }
+.image_4 {
+   width: 400px;
+   height: 250px;
+
+   filter: drop-shadow(0px 4px 4px #0D606F);
+   border-radius: 16px;
+   float: left;
+   margin-right: 40px;
+}
+
+.img_4{
+display: inline;
+
+}
+.wrapper_3{
+   background: rgba(255, 255, 255, 0.7);
+   width: 1445px;
+      height: 1270px;
+      left: 0px;
+      top: 2404px;
+     
+      
+        
+}
+
+.columns{
+   width: 1170px;
+   margin-left: 120px;
+   margin-right: 125px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+h3{
+   font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  margin-top: 0;
+}
+
+/*SECTION FOOTER START*/

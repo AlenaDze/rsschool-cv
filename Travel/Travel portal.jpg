@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Travel portal</title>
+   <link rel="stylesheet" href="Travel%20portal_files/style.css">
+</head>
+
+
+<body>
+ <div class="fon_1">
+<header class="header">
+
+   <div class="header__top__block">
+      <div class="wrapper">
+         <div class="header__wrapper">
+            <a href="#" class="logo">
+               <img src="Travel%20portal_files/Logo.svg" alt="Travel portal">
+            </a>
+            <nav class="header__navigation">
+               <ul class="navigation">
+                  <li class="header__item">
+                     <a href="#" class="header__link">How It Work</a>
+                  </li>
+                  <li class="header__item">
+                     <a href="#" class="header__link">Plan Your Trip</a>
+                  </li>
+                  <li class="header__item">
+                     <a href="#" class="header__link">Destinations</a>
+                  </li>
+                  <li class="header__item">
+                     <a href="#" class="header__link">Travel Stories</a>
+                  </li>
+
+               </ul>
+            </nav>
+            <button class="header__login">
+               <a href="#" class="login">Login</a>
+
+            </button>
+         </div>
+      </div>
+   </div>
+</header>
+
+<main class="main">
+   <section class="promo">
+      <div class="wrapper">
+         <h1 class="promo__title">
+            Explore the beauty of the World</h1>
+         <p class="promo__subtitle">Recieve personalized recommendations for countries, hotels, activities and more</p>
+         <div class="promo__button">
+
+            <form class="search__form">
+
+               <p class="search__form__info">
+                  <input type="text" class="search__form__field" placeholder="What would you like to do?">
+                  <button type="submit" class="start__planning">Start Planning</button>
+               </p>
+            </form>
+         </div>
+      </div>
+      </section></main></div>
+      
+
+   
+
+
+
+ 
+
+<section class="steps">
+   <div class="steps__wrapper">
+   <h2 class="steps__title">3 STEPS TO THE PERFECT TRIP</h2>
+   <div class="frame_card">
+  <div class="frame_1">
+   <img src="Travel%20portal_files/frame_1.svg" alt="frame_1">
+   </div>
+   <div class="frame_2">
+      
+   <img src="Travel%20portal_files/frame_2.svg" alt="frame_2">
+   </div>
+   <div class="frame_2">
+   <img src="Travel%20portal_files/frame_3.svg" alt="frame_3">
+   </div>
+   </div>
+   </div>
+</section>
+
+
+<section class="destinations">
+<div class="destinations__wrapper">
+   <h2 class="destinations__title">POPULAR DESTINATIONS</h2>
+   
+   <div class="travel_card">
+      <div class="spain">
+         <img src="Travel%20portal_files/spain.jpg" alt="spain">
+      </div>
+      <div class="japan">
+   
+         <img src="Travel%20portal_files/japan.jpg" alt="japan">
+      </div>
+      <div class="usa">
+         <img src="Travel%20portal_files/usa.jpg" alt="usa">
+      </div>
+   
+   </div>
+   <div class="hug">
+      <img src="Travel%20portal_files/hug.jpg" alt="hug">
+   
+   </div>
+   </div>
+   <button class="destination__button">→ Find More</button>
+
+</section>
+
+
+<section class="travel__stories">
+<div class="title__3"></div>
+<h2 class="stories__title">TRAVEL STORIES</h2>
+<div class="fon_2">
+  <div class="wrapper_3">
+   <div class="columns">
+
+      <div class="img_1">
+         <p class="text_fotos"><img class="image_1" src="Travel%20portal_files/1.jpg" alt="img_1">
+         </p><h3 class="10_fotos">10 Photos of Attractive Thailand</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna
+         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         Duis
+         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+         amet, consectetur adipiscing elit... Read More<p></p>
+      </div>
+      
+      
+      <div class="img_2">
+         <img class="image_2" src="Travel%20portal_files/2.jpg" alt="img_2">
+         <h3 class="utah">Canyonlands National Park, Utah</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+            sit
+            amet, consectetur adipiscing elit... Read More</p>
+      </div>
+      
+      <div class="img_3">
+         <img class="image_3" src="Travel%20portal_files/3.jpg" alt="img_3">
+         <h3>I left my heart in the Mountains!</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+            sit
+            amet, consectetur adipiscing elit... Read More</p>
+      </div>
+      <div class="img_4">
+         <img class="image_4" src="Travel%20portal_files/4.jpg" alt="img_4">
+         <h3>The Longest journey in my life!</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor
+            sit
+            amet, consectetur adipiscing elit... Read More</p>
+      </div>
+      </div>
+   </div>
+
+  
+  <footer>
+   
+  </footer>
+
+</div>
+
+
+</section>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
